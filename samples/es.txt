@@ -1,0 +1,50 @@
+{
+  "took" : 475,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 5,
+    "successful" : 5,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 54235,
+    "max_score" : 5.340879,
+    "hits" : [
+      {
+        "_index" : "ews2017.1",
+        "_type" : "Alert",
+        "_id" : "82b26acbef8314f763e318f8b4fbed9e",
+        "_score" : 5.340879,
+        "_source" : {
+          "countryName" : "Sweden",
+          "targetCountryName" : "Germany",
+          "client" : "-",
+          "targetEntryAS" : "AS3320 Deutsche Telekom AG",
+          "targetEntryIp" : "111.111.222.2",
+          "sourceEntryAS" : "AS3301 Telia Company AB",
+          "peerIdent" : "cowrie-community-01",
+          "clientVersion" : null,
+          "recievedTime" : "2017-09-09 18:22:39",
+          "clientDomain" : true,
+          "password" : "vizxv",
+          "targetCountry" : "DE",
+          "targetport" : "",
+          "peerType" : "Unclassified",
+          "createTime" : "2017-09-09 18:17:31",
+          "additionalData" : "",
+          "location" : "59.2833 , 15.216700000000003",
+          "sessionEnd" : "",
+          "sourceEntryPort" : "35772",
+          "country" : "SE",
+          "sourceEntryIp" : "222.225.111.111",
+          "locationDestination" : "49.88749999999999 , 8.644599999999997",
+          "login" : "Success",
+          "username" : "root",
+          "vulnid" : "",
+          "targetEntryPort" : "23",
+          "originalRequestString" : "enable; system; shell; sh; /bin/busybox MIRAI",
+          "sessionStart" : "2017-09-09 18:17:31"
+        }
+      }
+    }
+}
